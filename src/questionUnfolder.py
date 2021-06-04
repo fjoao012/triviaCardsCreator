@@ -21,8 +21,8 @@ def parse_arguments():
              " as replacing element"
     parser.add_argument("-q", "--questions", help=q_help, required=True,
                         type=lambda x: is_valid_file(parser, x))
-    p_help = "File containing people's names (including personal pronoun)" +\
-             " to replace in each question, at " + marker
+    p_help = "File containing people's names to replace in each question, " + \
+             "at " + marker
     parser.add_argument("-p", "--people", help=p_help, required=True,
                         type=lambda x: is_valid_file(parser, x))
     o_help = "Output file with the unfolded questions"
