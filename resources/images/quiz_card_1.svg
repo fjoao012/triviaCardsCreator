@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="70.300003mm"
-   height="89.599998mm"
-   viewBox="0 0 70.300003 89.599998"
+   width="70.290001mm"
+   height="89.57mm"
+   viewBox="0 0 70.290001 89.57"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
@@ -24,21 +24,22 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4823793"
-     inkscape:cx="136.94201"
-     inkscape:cy="186.52446"
+     inkscape:zoom="94.872275"
+     inkscape:cx="263.9338"
+     inkscape:cy="338.5341"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     height="89.57mm" />
   <defs
      id="defs2">
     <rect
        x="-160.5527"
        y="122.77559"
-       width="82.974715"
+       width="82.974716"
        height="84.998489"
        id="rect2452" />
     <linearGradient
@@ -216,7 +217,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2452);fill:#000000;fill-opacity:1;stroke:none"><tspan
            x="-160.55273"
            y="141.65036"
-           id="tspan15539">A</tspan></text>
+           id="tspan985">A</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,48.33548,21.337499)"
@@ -224,7 +225,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2452-9);fill:#000000;fill-opacity:1;stroke:none"><tspan
            x="-160.55273"
            y="141.65036"
-           id="tspan15541">B</tspan></text>
+           id="tspan987">B</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,48.062629,31.610905)"
@@ -232,7 +233,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2452-9-6);fill:#000000;fill-opacity:1;stroke:none"><tspan
            x="-160.55273"
            y="141.65036"
-           id="tspan15543">C</tspan></text>
+           id="tspan989">C</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,48.33548,42.220312)"
@@ -240,7 +241,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2452-9-6-4);fill:#000000;fill-opacity:1;stroke:none"><tspan
            x="-160.55273"
            y="141.65036"
-           id="tspan15545">D</tspan></text>
+           id="tspan991">D</tspan></text>
     </g>
   </g>
 </svg>

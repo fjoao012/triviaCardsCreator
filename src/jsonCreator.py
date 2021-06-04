@@ -33,7 +33,7 @@ def parse_arguments():
 def prepare_json_structure(question_list):
     my_map = {}
     for index, q in enumerate(question_list):
-        q_map = {"q": q, "a1": "", "a2": "", "a3": "", "a4": ""}
+        q_map = {"q": q, "a": ["", "", "", ""]}
         my_map["question" + str(f"{index:03d}")] = q_map
     return my_map
 
