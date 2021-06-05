@@ -1,4 +1,5 @@
 import os
+import random
 
 
 class Utils:
@@ -24,3 +25,16 @@ class Utils:
         else:
             # return an open file handle
             return arg
+
+    @staticmethod
+    def get_random_number(min_value, max_value):
+        return random.randint(min_value, max_value)
+
+    @staticmethod
+    def rename_all_files_in_folder(path, output_base_name):
+        files = os.listdir(path)
+        for index, file in enumerate(files):
+            ending = "." + file.split(".")[-1]
+            os.rename(os.path.join(path, file),
+                      os.path.join(path, ''.join([output_base_name, str(index),
+                                                  ending])))
