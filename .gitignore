@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # project specific stuff
-*.txt
+*/*.txt
 *.json

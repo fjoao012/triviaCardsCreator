@@ -1,16 +1,8 @@
 import argparse
-import os.path
 
+from utils.utils import Utils
 
 marker = "XX"
-
-
-def is_valid_file(parser, arg):
-    if not os.path.exists(arg):
-        parser.error("The file %s does not exist!" % arg)
-    else:
-        # return an open file handle
-        return open(arg, mode="r", encoding="utf-8")  
 
 
 def parse_arguments():
@@ -20,11 +12,11 @@ def parse_arguments():
     q_help = "File containing a set of questions with " + marker + \
              " as replacing element"
     parser.add_argument("-q", "--questions", help=q_help, required=True,
-                        type=lambda x: is_valid_file(parser, x))
+                        type=lambda x: Utils.is_valid_file(parser, x))
     p_help = "File containing people's names to replace in each question, " + \
              "at " + marker
     parser.add_argument("-p", "--people", help=p_help, required=True,
-                        type=lambda x: is_valid_file(parser, x))
+                        type=lambda x: Utils.is_valid_file(parser, x))
     o_help = "Output file with the unfolded questions"
     parser.add_argument("-o", "--output", help=o_help, required=True,
                     type=str)

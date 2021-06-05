@@ -1,14 +1,14 @@
-from multiprocessing import Pool
-from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
-
 import argparse
 import json
 import math
 import random
 import shutil
 import textwrap
-import os.path
+from multiprocessing import Pool
+from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFont
+from utils.utils import Utils
 
 placeholder = "XX"
 input_extension = ".emf"
@@ -19,28 +19,15 @@ output_image_name_template = input_image_name_template.replace(
     input_extension, output_extension).replace("resources/images", "output")
 
 
-def is_valid_json(parser, arg):
-    if not arg.endswith(".json"):
-        parser.error("The file does not end with .json" % arg)
-    else:
-        return arg
-
-
-def is_valid_file(parser, arg):
-    if not os.path.exists(arg):
-        parser.error("The file %s does not exist!" % arg)
-    else:
-        # return an open file handle
-        return open(arg, mode="r", encoding="utf-8")
-
-
 def parse_arguments():
     parser = argparse.ArgumentParser()
     q_help = "File containing a set of questions in JSON format to create the "\
              "trivia cards"
     parser.add_argument("-q", "--questions", help=q_help, required=True,
-                        type=lambda x: is_valid_file(parser, is_valid_json(
-                            parser, x)))
+                        type=lambda x: Utils.is_valid_file(parser,
+                                                           Utils.is_valid_file_with_extension(
+                                                               parser, x,
+                                                               ".json")))
     return parser.parse_args()
 
 
